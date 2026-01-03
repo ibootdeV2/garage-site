@@ -15,12 +15,13 @@ function sendWhatsApp(e) {
                         `📅 *Le:* ${date} à ${heure}%0A` +
                         `💬 *Notes:* ${msg}`;
 
-    const phoneNumber = "261326006601";
+    const phoneNumber = "261334174111";
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${fullMessage}`;
 
     window.open(whatsappUrl, '_blank');
 }
 function orderPiece(nomPiece) {
     const text = `Bonjour, je souhaite commander la pièce : *${nomPiece}*`;
-    window.open(`https://wa.me/261326006601?text=${encodeURIComponent(text)}`, '_blank');
+    window.open(`https://wa.me/261334174111?text=${encodeURIComponent(text)}`, '_blank');
+
 }
