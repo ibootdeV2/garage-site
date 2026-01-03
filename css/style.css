@@ -1,0 +1,53 @@
+:root {
+    --primary-color: #e63946;
+    --dark-bg: #1a1a1a;
+    --light-gray: #f8f9fa;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: var(--light-gray);
+    color: #333;
+}
+
+.navbar {
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+                url('https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&q=80&w=1200');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 120px 20px;
+    text-align: center;
+}
+
+.service-card {
+    background: white;
+    border-left: 6px solid var(--primary-color);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    transition: 0.3s transform;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.btn-danger {
+    background-color: var(--primary-color);
+    border: none;
+    font-weight: bold;
+}
+
+footer {
+    background: var(--dark-bg);
+    color: #fff;
+}
+
+iframe {
+    filter: grayscale(0.1);
+}
